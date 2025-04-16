@@ -1,0 +1,25 @@
+node => code writting is very complex and lengthy
+
+framework
+
+express => which provides some built in methods like app.use, for routing app.get,app.get
+
+Project flow
+
+express import
+
+app.use()  middleware (before reaching route execution, if we want some additional functionality to check authentication,etc)
+
+routes //endpoint of api
+
+app.listen // server start
+
+
+
+//Redux flow
+
+
+action, reducer, store
+
+ui event => dispatch INC, DEC => Reducer (function which holds the logic of action) => Store update
+ui event => dispatch INC, DEC => saga (api call)=> Reducer (function which holds the logic of action) => Store update
